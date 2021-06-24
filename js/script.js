@@ -2,7 +2,9 @@ new Vue(
     {
         el: '#app',
         data: {
-            text: 'Ciaone',
+            name: '',
+            image :'https://www.playstationzone.it/wp-content/uploads/2018/05/god-of-war-trofei.jpg',
+            descrizione:'Kratos che urla'
         }
     }
 )

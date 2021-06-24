@@ -9,7 +9,9 @@
 </head>
 <body>
     <div id="app">
-        <h1>{{text}}</h1>
+        <input v-model="name" type="text" placeholder="Inderisci qui il tuo nome">
+        <h1>Ciao {{name}}!</h1>
+        <img :src="image" :alt="descrizione">
     </div>
     <script src="js/script.js"></script>
 </body>
